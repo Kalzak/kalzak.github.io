@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm Kalzak, a blockchain enthusiast with a focus on security.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I work with both Ethereum/[Solidity](https://soliditylang.org/) and Starknet/[Cairo](https://cairo-lang.org/).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+You can reach out to me on twitter at [@kalzakdev](https://twitter.com/kalzakdev) or through [GitHub](https://github.com/kalzak) where you can find my email.
