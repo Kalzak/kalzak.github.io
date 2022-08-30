@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Paradigm CTF Rescue Challeng Explained"
+title:  "Paradigm CTF Rescue Challenge Explained"
 date:   2022-08-28 11:57:16 +0800
 ---
 
