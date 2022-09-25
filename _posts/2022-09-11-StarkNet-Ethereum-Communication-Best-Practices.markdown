@@ -20,7 +20,7 @@ In **L2 -> L1** communication the StarkNet contract must call `send_message_to_l
 
 An important distinction between these two flows is that for **L1 -> L2** the StarkNet `@l1_handler` function is automatically triggered, whereas in **L2 -> L1** the message must be consumed by calling `consumeMessageFromL2()`.
 
-You may also see the value `PRIME` referred to throughout this post. `PRIME` is equal to `2**251 + 17 * 2**192 + 1` and is the largest possible size of a StarkNet `felt`.
+You may also see the value `PRIME` referred to throughout this post. `PRIME` is equal to `2**251 + 17 * 2**192 + 1`. The largest possible value for a `felt` is `PRIME - 1`.
 
 ---
 
