@@ -12,7 +12,7 @@ I came across the attack through [this](https://twitter.com/CertiKAlert/status/1
 
 ## What happened?
 
-On May 27, 2022 an attacker managed to steal WBNB out of a Pancake pair between LegendCoin (LDC) and WBNB using funds from a flashloan. They borrowed WBNB using a flashloan and swapped the WBNB for a large amount of LDC. They would then send that LDC _back_ to the same pair again and `skim` it to a _different_ LDC pair, this time being a LDC and BSCUSD pair. Once this was done they managed to get fantastic pricing when exchanging LDC for WBNB in the initial pair. How did this work?
+On May 27, 2022 an attacker managed to steal WBNB out of a Pancake pair between LegendCoin (LDC) and WBNB using funds from a flashloan. The pair didn't have much value on it, having `~0.66` BNB and `~20738` LDC. They borrowed WBNB using a flashloan and swapped the WBNB for a large amount of LDC. They would then send that LDC _back_ to the same pair again and `skim` it to a _different_ LDC pair, this time being a LDC and BSCUSD pair. Once this was done they managed to get fantastic pricing when exchanging LDC for WBNB in the initial pair. How did this work?
 
 ## How did this happen?
 
