@@ -6,7 +6,7 @@ date:   2022-12-06 11:57:16 +0800
 
 Most of the time when you hear about a DeFi hack the attacker gets away with hundreds of thousands, if not millions of dollars. Today I would like to show you my investigation of the smallest hack I've come across where the attacker managed to steal just `1.12` BNB. 
 
-I came across the attack through [this](https://twitter.com/CertiKAlert/status/1596646156951384064) twitter post from [@CertiKAlert](https://twitter.com/CertiKAlert) while looking for explits I can study. I only grab the transaction hash and then do some research on my own, and then compare my analysis with their article as a way to improve my security knowledge. For anybody interested in doing the same, I have linked the transaction hash below so you can have a look for yourself before getting to the explanation.
+I came across the attack through [this](https://twitter.com/CertiKAlert/status/1596646156951384064) twitter post from [@CertiKAlert](https://twitter.com/CertiKAlert) while looking for exploits I can study. I only grab the transaction hash and then do some research on my own, and then compare my analysis with their article as a way to improve my security knowledge. For anybody interested in doing the same, I have linked the transaction hash below so you can have a look for yourself before getting to the explanation.
 
 [0xe4c2089468fc5eb115d83e8a89382e53ad3df564f8c1abd02e1d74b40ab4c8de](https://bscscan.com/tx/0xe4c2089468fc5eb115d83e8a89382e53ad3df564f8c1abd02e1d74b40ab4c8de)
 
