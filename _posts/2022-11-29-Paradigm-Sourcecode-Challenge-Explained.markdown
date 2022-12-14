@@ -138,9 +138,9 @@ The data in the `PUSH16` is equal to all the code that follows, which you can se
 
 
 ```
-6f 8060801b17606f595259526021601ff3 8060801b17606f595259526021601ff3
-^         ^                         ^
-PUSH16    DATA REPRESENTING CODE    CODE
+6f      8060801b17606f595259526021601ff3  8060801b17606f595259526021601ff3
+^       ^                                 ^
+PUSH16  DATA REPRESENTING CODE            CODE
 ```
 
 The approach that I took is to duplicate the data representing code twice, store the `PUSH16` into memory and then store the duplicated data now representing the entire code (aside from the missing `PUSH16` at the beginning) right next to the `PUSH16`. In memory we now have the entire runtimecode of the contract, and all we need to do is return it.
