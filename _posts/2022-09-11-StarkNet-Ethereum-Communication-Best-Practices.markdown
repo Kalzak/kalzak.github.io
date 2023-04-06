@@ -256,4 +256,4 @@ end
 
 ## End
 
-Hopefully this list of cross-chain communication best practices will help to improve your StarkNet protocol. If you think there is anything that I have missed, please let me know at [@kalzakdev](https://twitter.com/kalzakdev) and I'll be sure to add it to this post and credit you.
+Hopefully this list of cross-chain communication best practices will help to improve your StarkNet protocol. If you think there is anything that I have missed, please let me know at [@0xKalzak](https://twitter.com/0xKalzak) and I'll be sure to add it to this post and credit you.
