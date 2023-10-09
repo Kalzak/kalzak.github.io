@@ -85,7 +85,7 @@ mod MyContract {
 
 The cost of execution on Starknet is far cheaper than that of Ethereum, which means you don’t need to resort to extreme measures to craft heavily optimized yet potentially convoluted code. Now, we’re not saying you should start writing `O(n^3)` algorithms just because costs are lower, but that you can shift your focus towards sound algorithm design rather than obsessing over optimizing every single line. This approach often leads to code that is not only elegant but also more readable and less prone to errors. 
 
-For example, on more expensive chains where Solidity is used, you may find inline assembly is used in some places to write more efficient code and reduce gas costs, sometimes at the cost of readability. Make no mistake, at Nethermind, we love looking at optimization problems, and there is absolutely a place for inline assembly. When done right, it can have a great impact; however, experience is needed to ensure your code behaves exactly the way you intend it to. In Cairo, you can simply write well-designed code that’s easy to read with less complexity, while still enjoying the benefits of lower execution costs.
+For example, on more expensive chains where Solidity is used, you may find inline assembly is used in some places to write more efficient code and reduce gas costs, sometimes at the cost of readability. Make no mistake, I love looking at optimization problems, and there is absolutely a place for inline assembly. When done right, it can have a great impact; however, experience is needed to ensure your code behaves exactly the way you intend it to. In Cairo, you can simply write well-designed code that’s easy to read with less complexity, while still enjoying the benefits of lower execution costs.
 
 # Immutable variables by default
 
@@ -142,8 +142,6 @@ The `Result` trait follows a similar concept, offering the flexibility to repres
 # Conclusion
 
 The Starknet network and Cairo language have a lot of features to encourage (and force) writing good code. We hope this high-level overview of some of these features has been helpful. Of course, these features shouldn’t be mistaken as a silver bullet for all security concerns. Business logic issues, cross-chain communication flaws, and other mistakes can still make their way into your code. 
-
-If you’re presently engaged in or contemplating a Starknet project and require security reviews or guidance, feel free to get in touch with us at [hello@nethermind.io](mailto:hello@nethermind.io).
 
 Authored by [@0xKalzak](https://twitter.com/0xKalzak), with special acknowledgments to [@0xerim](https://twitter.com/0xerim) for discussions and reviews.
 
